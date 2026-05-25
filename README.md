@@ -52,7 +52,7 @@ Focused on writing clean, maintainable, and efficient code while delivering user
 
 ## Full-Stack Developer  
 ### KESL Engineering & Construction Ltd.
-📅 Dec 2024 — Apr 2026
+📅 Dec 2024 — Present
 
 ### Responsibilities
 - Developed and maintained scalable full-stack web applications.
