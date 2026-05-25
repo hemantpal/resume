@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemanta Pal - Full Stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:'Poppins',sans-serif;
+            background:#0f172a;
+            color:#e2e8f0;
+            line-height:1.7;
+        }
+
+        a{
+            color:#38bdf8;
+            text-decoration:none;
+        }
+
+        .container{
+            width:90%;
+            max-width:1200px;
+            margin:auto;
+            padding:40px 0;
+        }
+
+        .hero{
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        .hero h1{
+            font-size:52px;
+            margin-bottom:10px;
+            color:#ffffff;
+        }
+
+        .hero h2{
+            font-size:22px;
+            font-weight:400;
+            color:#94a3b8;
+            margin-bottom:20px;
+        }
+
+        .contact{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            margin-top:20px;
+        }
+
+        .contact a{
+            background:#1e293b;
+            padding:10px 18px;
+            border-radius:10px;
+            transition:.3s;
+        }
+
+        .contact a:hover{
+            background:#334155;
+        }
+
+        .section{
+            margin-top:60px;
+        }
+
+        .section-title{
+            font-size:32px;
+            margin-bottom:25px;
+            color:#38bdf8;
+            border-left:5px solid #38bdf8;
+            padding-left:15px;
+        }
+
+        .card{
+            background:#1e293b;
+            padding:30px;
+            border-radius:16px;
+            margin-bottom:25px;
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card h3{
+            color:#ffffff;
+            margin-bottom:8px;
+        }
+
+        .card h4{
+            color:#94a3b8;
+            margin-bottom:15px;
+            font-weight:400;
+        }
+
+        .skills{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .skill-box{
+            background:#1e293b;
+            padding:25px;
+            border-radius:15px;
+        }
+
+        .skill-box h3{
+            margin-bottom:15px;
+            color:#38bdf8;
+        }
+
+        .tags{
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+        }
+
+        .tag{
+            background:#334155;
+            padding:8px 14px;
+            border-radius:30px;
+            font-size:14px;
+        }
+
+        ul{
+            padding-left:20px;
+        }
+
+        li{
+            margin-bottom:10px;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:80px;
+            padding:30px 0;
+            color:#94a3b8;
+            border-top:1px solid #334155;
+        }
+
+        @media(max-width:768px){
+
+            .hero h1{
+                font-size:38px;
+            }
+
+            .section-title{
+                font-size:26px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- HERO SECTION -->
+
+        <section class="hero">
+
+            <h1>Hemanta Pal</h1>
+
+            <h2>Full Stack Developer | PHP Developer | Laravel Developer</h2>
+
+            <p>
+                Passionate Full Stack Developer experienced in building scalable web applications,
+                backend systems, admin dashboards, workflow automation platforms, and responsive UI solutions.
+            </p>
+
+            <div class="contact">
+                <a href="mailto:hemantpal.in@gmail.com">📧 Email</a>
+                <a href="https://github.com/hemantpal" target="_blank">🐙 GitHub</a>
+                <a href="https://www.linkedin.com/in/hemantapal/" target="_blank">💼 LinkedIn</a>
+            </div>
+
+        </section>
+
+        <!-- ABOUT -->
+
+        <section class="section">
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="card">
+
+                <p>
+                    Full Stack Developer with professional experience in PHP, Laravel, MySQL,
+                    JavaScript, React, Bootstrap, and WordPress development.
+                    Skilled in backend architecture, database management, workflow automation,
+                    API integration, and responsive frontend development.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+
+        <section class="section">
+
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills">
+
+                <div class="skill-box">
+                    <h3>Languages</h3>
+
+                    <div class="tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Frameworks</h3>
+
+                    <div class="tags">
+                        <span class="tag">Laravel</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Bootstrap</span>
+                        <span class="tag">jQuery</span>
+                        <span class="tag">AJAX</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Database & Tools</h3>
+
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">WordPress</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section class="section">
+
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="card">
+
+                <h3>Full Stack Developer</h3>
+                <h4>KESL Engineering & Construction Ltd. | Dec 2024 – Apr 2026</h4>
+
+                <ul>
+                    <li>Developed scalable web applications for real estate and material supply platforms.</li>
+                    <li>Designed backend systems, admin dashboards, and database architecture.</li>
+                    <li>Built workflow automation systems for pricing, supplier allocation, and delivery tracking.</li>
+                    <li>Improved operational efficiency and internal workflow management.</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Full Stack Developer</h3>
+                <h4>Vakils Premedia Pvt. Ltd. | Apr 2023 – Sept 2023</h4>
+
+                <ul>
+                    <li>Managed multiple WordPress and custom web projects.</li>
+                    <li>Improved UI/UX and mobile responsiveness for international websites.</li>
+                    <li>Worked on multi-region versions of the Ferring Connect platform.</li>
+                    <li>Implemented client-specific design and feature enhancements.</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Assistant Programmer</h3>
+                <h4>Multisoft Communications Pvt. Ltd. | Sept 2022 – Apr 2023</h4>
+
+                <ul>
+                    <li>Developed role-based HR, payroll, and pension management systems.</li>
+                    <li>Optimized MySQL database queries and backend performance.</li>
+                    <li>Worked on government projects involving reporting and data processing.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS -->
+
+        <section class="section">
+
+            <h2 class="section-title">Projects</h2>
+
+            <div class="card">
+
+                <h3>🏗️ ODINTO — Construction Material Supply Platform</h3>
+
+                <ul>
+                    <li>Developed supplier and transporter coordination platform.</li>
+                    <li>Implemented delivery tracking and order management systems.</li>
+                    <li>Built pricing workflow and admin dashboard.</li>
+                </ul>
+
+            </div>
+
+            <div class="card">
+
+                <h3>🏠 KESL — Property Resale Platform</h3>
+
+                <ul>
+                    <li>Developed property listing and inquiry management platform.</li>
+                    <li>Built backend workflow and property submission system.</li>
+                    <li>Designed scalable database structure for property management.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- EDUCATION -->
+
+        <section class="section">
+
+            <h2 class="section-title">Education</h2>
+
+            <div class="card">
+
+                <h3>Diploma in Mechanical Engineering</h3>
+
+                <h4>Spintronic Technology & Advance Research</h4>
+
+                <p>Bhubaneswar, Odisha, India</p>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            <p>© 2026 Hemanta Pal • Full Stack Developer</p>
+
+        </footer>
+
+    </div>
+
+</body>
+</html>
